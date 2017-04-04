@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Thugger Extension",
+  "description": "This extension gives you a daily dose of thugger",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "popup.html"
+  },
+  "permissions": [
+  ]
+}

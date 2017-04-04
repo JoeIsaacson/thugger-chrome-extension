@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- This page is shown when a new tab is opened as the blank tab-->
+<html>
+  <head>
+    <title>Daily Young Thug Inspirational</title>
+    <style>
+      body {
+        font-family: 'Merriweather', serif;
+        font-size: 100%;
+        width: 300px;
+        height: 250px;
+      }
+
+      .artist-text {
+        width: 450px;
+        text-align: center;
+        padding: 50px 0;
+        position: absolute;
+        margin-left: -225px;
+        left: 50%;
+        font-size: 40px;
+      }
+
+      .artist-image {
+        display: inline-block;
+        width: 255px;
+        height: 400px;
+        bottom: 0;
+        margin-top: -200px;
+        position: absolute;
+        left: 50%;
+        margin-left: -127.5px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="popup.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  </head>
+  <body>
+    <div class="artist-text" id="mainBox">Hi Mom!</div>
+    <div class="artist-image">
+        <img src="thug-2.png" alt="artist-image">
+    </div>
+  </body>
+</html>
